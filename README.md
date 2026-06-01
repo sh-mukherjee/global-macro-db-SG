@@ -10,7 +10,7 @@ This repository documents the underlying data pipeline logic, SQL queries, and v
 ## Technical Stack
 *   **Data Platform:** Databricks (Workspace Tables, Delta Lake Architecture)
 *   **Query Language:** Spark SQL / ANSI SQL
-*   **Data Source:** Global Macro Database (Latest CSV Release) available [here]('https://www.globalmacrodata.com/data.html').
+*   **Data Source:** Global Macro Database (Latest CSV Release) available here - https://www.globalmacrodata.com/data.html.
 *   **Target Market Focus:** Singapore (SG)
 
 ---
