@@ -20,7 +20,7 @@ This repository documents the underlying data pipeline logic, SQL queries, and v
 ### 1. Data Ingestion & Schema Mapping
 The raw, multi-source macroeconomic dataset was ingested as a structured CSV file and uploaded into the Databricks workspace environment as a managed Delta table. Initial data type validation and schema enforcement were applied to ensure time-series integrity across the macroeconomic variables.
 
-### 2. ETL & Data Normalization (SQL Engine)
+### 2. ETL & Data Filtering (SQL Engine)
 To isolate the regional footprint, a curated presentation layer was engineered using SQL queries. The pipeline filters raw global data down to specified time horizons and for the country Singapore.
 
 ```sql
